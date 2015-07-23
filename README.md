@@ -19,5 +19,5 @@ All the processing happens locally, so you don't even need to be online to run t
 - Highlighter for making the generated TEI look pretty: https://highlightjs.org/
 - jQuery for manipulating the DOM: http://jquery.com/
 
-##Authoring
+##Author
 Written by Chris Sparks.  Get in touch on Twitter at @sparkyc84 or by emailing c.sparks@qmul.ac.uk with questions/comments/suggestions.
