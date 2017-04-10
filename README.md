@@ -5,7 +5,7 @@ This tool hooks together some JavaScript libraries to allow you to draw shapes o
 
 ## Trying it out
 
-A live version of the tool is available at time of writing at https://static/chrissparks.org.uk/tei
+A live version of the tool is available at time of writing at https://static.chrissparks.org.uk/tei
 
 ## Installation on a Server
 
