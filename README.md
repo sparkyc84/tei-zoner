@@ -1,5 +1,5 @@
 # tei-zoner
-##A tool for creating &lt;zone> elements within TEI.
+## A tool for creating &lt;zone> elements within TEI.
 
 This tool hooks together some JavaScript libraries to allow you to draw shapes on an image.  It uses the HTML5 File API to load images from a local computer using JavaScript, therefore avoiding any client-side processing and making it super-fast.
 
