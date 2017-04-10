@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -22,20 +21,22 @@
 </section>
 <div id="imgarea">
 <h1>TEI Zoner</h1>
-<p>This tool allows you to generate TEI &lt;zone&gt; elements by drawing points on an image.  It is entirely browser-based (nothing is processed on the server), so it should be very fast. Developed in Firefox, but should work in any modern browser.</p>
-<p>How to use:</p>
+<p>This tool allows you to generate TEI &lt;zone&gt; elements by drawing points on an image.  It is entirely browser-based (nothing is processed on the server), so it should be very fast.</p>
+<h2>How to use:</h2>
 <ul>
   <li>To set points of your shape, click anywhere on the image.</li>
   <li>To draw your shape, click [Draw Shape] in the bar at the bottom of the screen.</li>
-  <li>If you have only drawn two points, you will get a rectangle.  Otherwise, a polygon.</li>
+  <li>If you have only drawn two points, you will get a rectangle.  Otherwise, the tool will draw a polygon.</li>
 </ul>
-<p>Uses <a href="http://raphaeljs.com/">raphael.js</a>, <a href="https://highlightjs.org/">highlight.js</a> and <a href="https://jquery.com/">jQuery</a>, and owes a lot to the fine people of <a href="http://stackoverflow.com/">StackOverflow</a> (in particular <a href="http://stackoverflow.com/questions/25487454/display-image-from-desktop-in-a-page">this question</a>).</p>
-<p>Info, comments, suggestions: <a href="https://twitter.com/sparkyc84">@sparkyc84</a>.</p>
-<p>Source <a href="https://github.com/sparkyc84/tei-zoner">available to fork on GitHub</a>.</p>
 <form id="pickfile"><label>First, pick an image: <input type="file" id="files" name="files[]" /></label></form>
-<br />
+<br>
 <img id="editor" />
 <div id="canvas"></div>
+<h2>About the Zoner</h2>
+<p>The tool uses <a href="http://raphaeljs.com/">raphael.js</a>, <a href="https://highlightjs.org/">highlight.js</a> and <a href="https://jquery.com/">jQuery</a>, and owes a lot to the fine people of <a href="http://stackoverflow.com/">StackOverflow</a> (in particular <a href="http://stackoverflow.com/questions/25487454/display-image-from-desktop-in-a-page">this question</a>).</p>
+<p>It was written by <a href="http://www.history.qmul.ac.uk/staff/profile/5467-dr-chris-sparks">Chris Sparks</a> to act as a teaching resource during for a <a href="http://digitalmanuscripts.eu/">DEMM Digital Editing TEI training week</a>.</p>
+<p>Please send comments or suggestions to <a href="https://twitter.com/sparkyc84">@sparkyc84</a>.</p>
+<p>The source code of this project is <a href="https://github.com/sparkyc84/tei-zoner">available to fork on GitHub</a>.  It is licensed under the MIT License, which means you can use modify and embed it within other projects so long as you retain the copyright notice and license text.  I’d be interested to hear about any uses of the tool, and would be happy to incorporate any fixes or enhancements you might suggest.</p>
 </div>
 <div id="controls">
 <input type="button" value="Show TEI" id="gettei"/>
